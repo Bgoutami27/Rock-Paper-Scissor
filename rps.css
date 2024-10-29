@@ -1,0 +1,78 @@
+.body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body{
+    background-color: rgb(25, 25, 100);
+}
+#button1{
+
+    background-image:url(rock.png) ;
+    height: 200px;
+    width: 350px;
+    background-size: contain;
+    border:3px solid aliceblue;
+    margin-right: 30px;
+    border-radius: 100px;
+    background-color: transparent;
+    cursor: pointer;
+}
+#button2{
+
+    background-image:url(paper.png) ;
+    height: 200px;
+    width: 350px;
+    background-size: contain;
+    border:3px solid aliceblue;
+    margin-right: 30px;
+    border-radius: 100px;
+    background-color: transparent;
+    cursor: pointer;
+}
+#button3{
+
+    background-image:url(scissors.png) ;
+    height: 200px;
+    width: 350px;
+    border-radius: 100px;
+    background-size: contain;
+    border:3px solid aliceblue;
+    background-color: transparent;
+    cursor: pointer;
+ 
+}
+#button4{
+    background-size: cover;
+    display: flex;
+    border-radius: 2px;
+    border-color: aliceblue;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    cursor: pointer;
+}
+.js-score{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.body2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3px 3px 3px 3px;
+}
+.Title{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
